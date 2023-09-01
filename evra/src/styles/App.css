@@ -1,0 +1,37 @@
+/* YourComponent.css */
+
+/* Overall container */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Adjust the height as needed */
+  width: 100%;
+}
+
+/* Three-Column Grid */
+.three-column-grid {
+  display: flex;
+  flex-grow: 1;
+}
+
+/* Columns */
+.column {
+  padding: 20px; /* Adjust the padding as needed */
+  border: 1px solid #ddd; /* Add borders or styling as needed */
+}
+
+.topics {
+  flex: 1.5; /* Flexible width to take remaining space */
+  background-color: #f1f1f1; /* Set background color */
+}
+
+.contents {
+  flex: 8; /* Fixed width for the content column */
+  background-color: #fff; /* Set background color */
+}
+
+.scroll-bar {
+  flex: 1.5; /* Fixed width for the scroll bar column */
+  overflow-y: auto; /* Enable vertical scrollbar if content overflows */
+  background-color: #f1f1f1; /* Set background color */
+}

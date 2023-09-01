@@ -1,0 +1,16 @@
+/* Fixed Menu Bar */
+.menu-bar {
+    background-color: #333; /* Set your desired background color */
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: center
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+  }
+  
+  .menu-bar li {
+    cursor: pointer;
+  }
