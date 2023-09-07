@@ -28,6 +28,8 @@
 .contents {
   flex: 8; /* Fixed width for the content column */
   background-color: #fff; /* Set background color */
+  display: flex;
+  justify-content: center;
 }
 
 .scroll-bar {

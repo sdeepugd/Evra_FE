@@ -1,7 +1,7 @@
 import React from 'react';
 import MenubarItem from './MenuBarItem';
 import '../../styles/MenuBar.css'
-import { ButtonGroup, Button } from 'reactstrap';
+import { Button } from 'reactstrap';
 
 function MenuBar(props) {
 
@@ -23,10 +23,10 @@ function MenuBar(props) {
 
   return (
     <div className="menu-bar">
-      <Button color="primary">Home</Button>
-      <Button color="primary">Contact</Button>
-      <Button color="primary">Careers</Button>
-   </div>
+      <MenubarItem label="Home"/>
+      <MenubarItem label="Contact"/>
+      <MenubarItem label="Careers"/>
+    </div>
     
   );
 }

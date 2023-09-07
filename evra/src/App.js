@@ -18,6 +18,7 @@ function App() {
         {/* 2nd Column for Contents */}
         <div className="column contents">
           {/* Your content for the Contents column */}
+          Deepak
         </div>
 
         {/* 3rd Column for Scroll Bar */}
