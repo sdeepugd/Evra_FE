@@ -4,18 +4,10 @@ phases:
   install:
     runtime-versions:
       nodejs: 12
-  pre_build:
-    commands:
-      - npm install -g @aws-amplify/cli
-      - amplify configure --appid YOUR_AMPLIFY_APP_ID --envName YOUR_ENV_NAME --default
-      - amplify pull --yes
   build:
     commands:
-      - npm ci
+      - npm install
       - npm run build
-  post_build:
-    commands:
-      - amplify push --yes
 
 artifacts:
   base-directory: build/
