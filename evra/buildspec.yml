@@ -8,6 +8,6 @@ phases:
       - npm run build
 
 artifacts:
-  base-directory: build/
+  base-directory: evra/build/
   files:
     - '**/*'
